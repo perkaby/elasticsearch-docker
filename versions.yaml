@@ -22,19 +22,6 @@ _variables:
     version: '1.1.0rc1'
 
 versions:
-  - dir: '7/7.0'
-    repo: elasticsearch7
-    tags:
-      - '7.0.1'
-      - '7.0'
-      - 'latest'
-    from: *from
-    packages:
-      gosu: *gosu
-      exporter: *exporter
-      elasticsearch:
-        gpg: *gpg
-        version: '7.0.1'
   - dir: '6/6.7'
     repo: elasticsearch6
     tags:
